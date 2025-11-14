@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flexy">
+    <div class="login-card">
+      <h3 class="password-lbl">Enter your Password</h3>
+      <div class="account-card flexy">
+        <img src="jane.jpg" alt="img.png" class="profile-pic" />
+        <div>
+          <small class="account-type">business Account</small>
+          <p class="account-name">Sarah Bills</p>
+        </div>
+      </div>
+      <div>
+        <p class="password-txt flexy">Password</p>
+        <div class="password-card flexy">
+          <div class="password-fld flexy">
+            <i class="fa-solid fa-lock lock"></i>
+            <input type="password" placeholder="Password" id="password" />
+          </div>
+          <div>
+            <i
+              class="fa-regular fa-eye"
+              id="eye-open"
+              onclick="toggleEye()"
+            ></i>
+            <i
+              class="fa-regular fa-eye-slash"
+              id="eye-close"
+              onclick="toggleEye()"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="signed-in-card flexy">
+        <div class="signed-in flexy">
+          <i
+            class="fa-solid fa-toggle-off toggle"
+            id="toggle-on"
+            onclick="toggle()"
+          ></i>
+          <i
+            class="fa-solid fa-toggle-on toggle"
+            id="toggle-off"
+            onclick="toggle()"
+          ></i>
+          <p onclick="toggle()">Stay Signed in</p>
+        </div>
+        <button onclick="logIn()">Continue</button>
+      </div>
+      <a onclick="alert('Password Reset')" class="reset">Reset Password</a>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/b466796e6d.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>
