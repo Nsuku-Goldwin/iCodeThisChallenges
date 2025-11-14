@@ -1,0 +1,108 @@
+* {
+  color: rgb(33, 33, 126);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.flexy {
+  display: flex;
+}
+body {
+  background: whitesmoke;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px;
+  padding: 40px;
+  width: 400px;
+  height: 350px;
+  background: white;
+}
+.password-lbl {
+  font-size: 1.7rem;
+}
+.account-card {
+  align-items: center;
+  margin: 12px 0;
+}
+.profile-pic {
+  width: 50px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.account-type {
+  font-size: 0.8rem;
+}
+.account-name {
+  font-weight: bold;
+}
+.password-txt {
+  font-weight: bold;
+}
+.password-fld {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 2px solid rgb(70, 70, 70);
+  input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0 12px;
+  }
+}
+.password-card {
+  align-items: center;
+  i {
+    margin-left: 8px;
+  }
+}
+.lock {
+  color: rgb(70, 70, 70);
+}
+.toggle {
+  font-size: 1.8rem;
+  font-weight: 100;
+  cursor: pointer;
+}
+.signed-in {
+  align-items: center;
+  gap: 8px;
+}
+.signed-in-card {
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background-color: rgb(33, 33, 126);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 24px;
+  cursor: pointer;
+}
+button:active {
+  background-color: rgba(33, 33, 126, 0.5);
+}
+.reset {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+.reset:hover {
+  font-weight: bolder;
+}
